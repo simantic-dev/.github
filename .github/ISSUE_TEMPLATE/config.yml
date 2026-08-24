@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://simantic.dev/docs
+    about: Install, authentication, engines, and the pytest plugin.
+  - name: Security vulnerability
+    url: https://github.com/simantic-dev/.github/blob/main/SECURITY.md
+    about: Please report privately — do not open a public issue.
+  - name: Account, billing, or access
+    url: https://simantic.dev/contact
+    about: Email founders@simantic.dev rather than filing a public issue.
