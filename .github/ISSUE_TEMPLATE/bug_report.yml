@@ -1,0 +1,58 @@
+name: Bug report
+description: Something behaves differently than you expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please do **not** use this form for security
+        vulnerabilities — follow our
+        [security policy](https://github.com/simantic-dev/.github/blob/main/SECURITY.md)
+        instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: >
+        The smallest script, firmware, or command that shows the problem.
+        Exact commands beat a description of them.
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package or CLI version — e.g. `simantic 0.3.0`, or a commit SHA.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >
+        OS and version, Python version, and the target MCU if relevant. If this
+        involves the SDK or CLI, paste the output of `simantic status`.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Error message, traceback, or UART transcript. No need for backticks.
+      render: shell
+    validations:
+      required: false

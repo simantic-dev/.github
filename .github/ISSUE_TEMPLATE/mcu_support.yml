@@ -1,0 +1,36 @@
+name: MCU or peripheral support
+description: Ask for a part that is not modelled yet.
+labels: ["mcu-support"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        These reports are useful to us even when we cannot get to them soon —
+        they are how we decide what to model next.
+
+  - type: input
+    id: part
+    attributes:
+      label: Part number
+      description: The exact part, e.g. `STM32H743ZI`, `nRF9160`, `ESP32-C6`.
+    validations:
+      required: true
+
+  - type: textarea
+    id: peripherals
+    attributes:
+      label: Which peripherals do you need?
+      description: >
+        The ones your firmware actually touches — UART, CAN, SPI, the radio,
+        a crypto block. A working model of the parts you use beats a complete
+        one much later.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you building?
+      description: A sentence on the project and how you would test it. Optional.
+    validations:
+      required: false
