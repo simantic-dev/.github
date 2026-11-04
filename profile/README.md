@@ -47,17 +47,11 @@ with Sim(elf="fw.elf", mcu="STM32F401RE", uart="usart2") as sim:
 That is a whole test — no probe, no breakpoint, no waiting on hardware. The
 simulator runs inside your Python process, so there is no server to start.
 
-> The Python SDK is **alpha (0.3.x)** and the API can still change without a
+> The Python SDK is **alpha (0.4.x)** and the API can still change without a
 > deprecation period. Pin an exact version if you depend on it, and tell us
 > what breaks.
 
 ## What's public
-
-| Repository | What it is |
-| --- | --- |
-| [**pippy**](https://github.com/simantic-dev/pippy) | The `simantic` Python SDK and pytest plugin. MIT. |
-| [**homebrew-simantic**](https://github.com/simantic-dev/homebrew-simantic) | Homebrew tap for the `sim` CLI: `brew tap simantic-dev/simantic && brew install simantic`. |
-| [**crosspoint-reader**](https://github.com/simantic-dev/crosspoint-reader) | Open-source e-reader firmware for the Xteink X3/X4 — and a real target we simulate. |
 
 Most of the platform — the simulation engines, the MCU and peripheral models,
 and the board tooling — is still developed privately while we are in alpha.
