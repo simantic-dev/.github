@@ -57,7 +57,6 @@ simulator runs inside your Python process, so there is no server to start.
 | Repository | What it is |
 | --- | --- |
 | [**pippy**](https://github.com/simantic-dev/pippy) | The `simantic` Python SDK and pytest plugin — [on PyPI](https://pypi.org/project/simantic/). MIT. |
-| [**homebrew-simantic**](https://github.com/simantic-dev/homebrew-simantic) | Homebrew tap for the `sim` CLI: `brew tap simantic-dev/simantic && brew install simantic`. |
 | [**crosspoint-reader**](https://github.com/simantic-dev/crosspoint-reader) | Open-source e-reader firmware for the Xteink X3/X4 — and a real target we simulate. |
 
 Most of the platform — the simulation engines, the MCU and peripheral models,
