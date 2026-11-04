@@ -10,7 +10,6 @@
 <p align="center">
   <a href="https://simantic.dev">Website</a> ·
   <a href="https://simantic.dev/docs">Docs</a> ·
-  <a href="https://pypi.org/project/simantic/">PyPI</a> ·
   <a href="https://simantic.dev/pricing">Pricing</a> ·
   <a href="https://simantic.dev/apply">Careers</a>
 </p>
@@ -32,7 +31,7 @@ Because the whole machine is software, you can do things a bench cannot:
 ## Try it
 
 ```bash
-pip install simantic
+curl -fsSL https://simantic.com/install | sh
 ```
 
 ```python
@@ -48,16 +47,11 @@ with Sim(elf="fw.elf", mcu="STM32F401RE", uart="usart2") as sim:
 That is a whole test — no probe, no breakpoint, no waiting on hardware. The
 simulator runs inside your Python process, so there is no server to start.
 
-> The Python SDK is **alpha (0.3.x)** and the API can still change without a
+> The Python SDK is **alpha (0.4.x)** and the API can still change without a
 > deprecation period. Pin an exact version if you depend on it, and tell us
 > what breaks.
 
 ## What's public
-
-| Repository | What it is |
-| --- | --- |
-| [**pippy**](https://github.com/simantic-dev/pippy) | The `simantic` Python SDK and pytest plugin — [on PyPI](https://pypi.org/project/simantic/). MIT. |
-| [**crosspoint-reader**](https://github.com/simantic-dev/crosspoint-reader) | Open-source e-reader firmware for the Xteink X3/X4 — and a real target we simulate. |
 
 Most of the platform — the simulation engines, the MCU and peripheral models,
 and the board tooling — is still developed privately while we are in alpha.
