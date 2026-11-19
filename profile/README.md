@@ -1,3 +1,6 @@
+<!-- simantic-banner -->
+> **Simulate your firmware with no hardware.** [Simantic](https://simantic.com) simulates the whole board, peripherals, sensors and buses included. Try it free at **[simantic.com](https://simantic.com)**, or run it locally: `curl -fsSL https://simantic.com/install | sh`
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://simantic.dev/simantic_logo_4_full_transparent.png">
