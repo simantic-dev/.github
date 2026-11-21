@@ -4,7 +4,7 @@ Thanks for using Simantic. Here is the fastest way to get an answer.
 
 ## Documentation first
 
-- **Docs** — [simantic.dev/docs](https://simantic.dev/docs)
+- **Docs** — [simantic.com/docs](https://simantic.com/docs)
 - **Python SDK** — the [pippy README](https://github.com/simantic-dev/pippy)
   covers install, authentication, engines, and the pytest plugin.
 - **Is it configured?** — `simantic status` prints what resolved on your

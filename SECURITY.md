@@ -37,7 +37,7 @@ This policy covers the repositories published under
 [github.com/simantic-dev](https://github.com/simantic-dev) and the
 `simantic` package on PyPI.
 
-Reports about the hosted service at `simantic.dev` are also welcome at the
+Reports about the hosted service at `simantic.com` are also welcome at the
 same addresses.
 
 Some of our public repositories are forks of upstream projects (for example
